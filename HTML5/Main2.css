@@ -1,0 +1,7 @@
+/*p:nth-child(3){color:red;}*/
+/*p:nth-child(odd){color:red;}*/
+/*p:nth-child(even){color:red;}*/
+/**{color:red}
+:not(.bucky){color:blue;}*/
+/*div > p{color:green;}*/
+p.bucky+ p{color:blue}
