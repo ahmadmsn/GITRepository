@@ -4,7 +4,7 @@ import {PostsService} from '../services/posts.service'
 @Component({
     moduleId:module.id,
     selector: 'user',
-    templateUrl:'user.component.html';
+    templateUrl:'user.component.html',
     providers: [PostsService]
 })
 export class UserComponent {
