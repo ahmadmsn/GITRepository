@@ -1,0 +1,4 @@
+-For new project. Go to the path where we want to create a project.
+>ng new <projectname>
+-To create a new component
+>ng g component test
