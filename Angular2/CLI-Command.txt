@@ -2,3 +2,5 @@
 >ng new <projectname>
 -To create a new component
 >ng g component test
+-To create new servive
+>ng g service my-new-service
