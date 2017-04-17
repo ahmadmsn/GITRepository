@@ -1,0 +1,60 @@
+﻿.body 
+{
+	height:100%;
+	background-color:Green;
+	border-style:solid;
+	border-width:thick;
+	border-color:Red;
+}
+.header
+{
+	height:20px;
+	width:80px;
+	background-color:Purple;
+	border-style:solid;
+	border-width:thick;
+	border-color:Maroon;
+	font-size:large;
+	font-style:normal;
+	font-family:Book Antiqua;
+	color:Maroon;
+}
+.div1
+{
+	
+	/*widows:200%;*/
+	height:400px;
+	width:100%;
+	background-color:White;
+	border-bottom-color:Maroon;
+	border-style:solid;
+	border-bottom-width:thick;
+	
+	
+	
+}
+.td1
+{
+	background-color:Lime;
+	border-style:solid;
+	border-color:Blue;
+}
+a
+{
+	background-color:Green;
+	 font-family:Verdana;
+	 font-size:10px;
+	  color:Black;
+	  font-size:large
+}
+
+a:hover
+{
+	background-color:red;
+	 font-family:Verdana;
+	 font-size:10px;
+	 color:white;
+	 font-style:oblique;
+	 font-size:large
+}
+

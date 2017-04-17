@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="z-index: 102; left: 8px; position: absolute; top: 9px; width: 1075px; height: 544px;">
+            <tr>
+                <td style="width: 100px; height: 73px;" colspan="3">
+                
+                 
+            </tr>
+            <tr>
+                <td style="width: 21477px; height: 248px;">
+                 
+                </td>
+                <td style="width: 139532px; height: 248px;">
+                    &nbsp;<asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    
+        </asp:contentplaceholder>
+                </td>
+                <td style="width: 29595px; height: 248px;">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                 
+                <td style="width: 100px; height: 155px;" colspan="3">
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>

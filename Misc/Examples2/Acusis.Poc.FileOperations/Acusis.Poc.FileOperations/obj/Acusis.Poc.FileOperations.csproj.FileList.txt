@@ -1,0 +1,10 @@
+bin\Debug\Acusis.Poc.FileOperations.exe.config
+bin\Debug\Acusis.Poc.FileOperations.exe
+bin\Debug\Acusis.Poc.FileOperations.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Acusis.Poc.FileOperations.Properties.Resources.resources
+obj\Debug\Acusis.Poc.FileOperations.csproj.GenerateResource.Cache
+obj\Debug\Acusis.Poc.FileOperations.exe
+obj\Debug\Acusis.Poc.FileOperations.pdb
+obj\Debug\Acusis.Poc.FileOperations.LoginPage.resources
+obj\Debug\Acusis.Poc.FileOperations.Operations.resources

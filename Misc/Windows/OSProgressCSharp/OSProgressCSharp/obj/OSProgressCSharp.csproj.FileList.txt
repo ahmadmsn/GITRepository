@@ -1,0 +1,7 @@
+bin\Debug\OSProgressCSharp.dll
+bin\Debug\OSProgressCSharp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OSProgressCSharp.OSProgress.resources
+obj\Debug\OSProgressCSharp.csproj.GenerateResource.Cache
+obj\Debug\OSProgressCSharp.dll
+obj\Debug\OSProgressCSharp.pdb

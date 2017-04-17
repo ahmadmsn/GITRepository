@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>file:///D:\admiral\asp\myprog\NewFolder1\background.jpg</ImageUrl>
+    <NavigateUrl>www.yahoo.com</NavigateUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>a</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///D:\admiral\asp\myprog\NewFolder1\kar74a.jpg</ImageUrl>
+    <NavigateUrl>www.yahoo.com</NavigateUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>a</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///D:\admiral\asp\myprog\NewFolder1\kar84a.jpg</ImageUrl>
+    <NavigateUrl>www.yahoo.com</NavigateUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>a</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///D:\admiral\asp\myprog\NewFolder1\kar89v.jpg</ImageUrl>
+    <NavigateUrl>www.yahoo.com</NavigateUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>a</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///D:\admiral\asp\myprog\NewFolder1\kar76a.jpg</ImageUrl>
+    <NavigateUrl>www.yahoo.com</NavigateUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>b</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+</Advertisements>

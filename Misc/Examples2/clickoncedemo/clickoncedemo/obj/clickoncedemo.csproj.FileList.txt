@@ -1,0 +1,12 @@
+bin\Debug\clickoncedemo.exe.manifest
+bin\Debug\clickoncedemo.application
+bin\Debug\clickoncedemo.exe
+bin\Debug\clickoncedemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\clickoncedemo.Properties.Resources.resources
+obj\Debug\clickoncedemo.csproj.GenerateResource.Cache
+obj\Debug\clickoncedemo.exe.manifest
+obj\Debug\clickoncedemo.application
+obj\Debug\clickoncedemo.exe
+obj\Debug\clickoncedemo.pdb
+obj\Debug\clickoncedemo.Form1.resources

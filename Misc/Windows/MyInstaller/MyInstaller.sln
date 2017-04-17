@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyInstaller", "MyInstaller\MyInstaller.vdproj", "{CD11F49E-2974-403A-B33D-5C1DACD0CBD2}"
+EndProject
+Project("{8BC9CEB9-8B4A-11D0-8D11-00A0C91BC942}") = "ForPractice.exe", "..\ForPractice\ForPractice\bin\Debug\ForPractice.exe", "{93810D55-13F6-4F4F-8794-5F50BC0918E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD11F49E-2974-403A-B33D-5C1DACD0CBD2}.Debug|Default.ActiveCfg = Debug
+		{CD11F49E-2974-403A-B33D-5C1DACD0CBD2}.Debug|Default.Build.0 = Debug
+		{CD11F49E-2974-403A-B33D-5C1DACD0CBD2}.Release|Default.ActiveCfg = Release
+		{CD11F49E-2974-403A-B33D-5C1DACD0CBD2}.Release|Default.Build.0 = Release
+		{93810D55-13F6-4F4F-8794-5F50BC0918E8}.Debug|Default.ActiveCfg = Debug
+		{93810D55-13F6-4F4F-8794-5F50BC0918E8}.Release|Default.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

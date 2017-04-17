@@ -1,0 +1,124 @@
+﻿Uninstalling assembly 'D:\ad\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   logfile = D:\ad\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Uninstalling assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Uninstalling assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Removing EventLog source MyService.
+Warning: The source MyService is not registered on the local machine.
+Service MyService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Installing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Installing service MyService...
+Creating EventLog source MyService in log Application...
+Rolling back assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Restoring event log to previous state for source MyService.
+Uninstalling assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Attempt to stop service MyService.
+Installing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Uninstalling assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.exe
+   i = 
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\MyWindowService.InstallLog
+Uninstalling assembly 'D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.exe
+   logfile = D:\ad\windows_old\Windows 1.04.09\MyWindowService\MyWindowService\bin\Debug\mywindowservice.InstallLog
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Attempt to stop service MyService.

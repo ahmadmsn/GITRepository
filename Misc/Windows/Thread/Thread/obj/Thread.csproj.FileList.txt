@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Thread.csproj.GenerateResource.Cache
+bin\Debug\Thread.exe
+bin\Debug\Thread.pdb
+obj\Debug\Thread.exe
+obj\Debug\Thread.pdb
+obj\Debug\ThreadExample.Form1.resources
+obj\Debug\ThreadExample.Properties.Resources.resources
+obj\Debug\ThreadExample.Form2.resources
+bin\Debug\Thread.exe.config

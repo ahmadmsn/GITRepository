@@ -1,0 +1,8 @@
+bin\Debug\MyService2.exe
+bin\Debug\MyService2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MyService2.ProjectInstaller.resources
+obj\Debug\MyService2.MyService2.resources
+obj\Debug\MyService2.csproj.GenerateResource.Cache
+obj\Debug\MyService2.exe
+obj\Debug\MyService2.pdb

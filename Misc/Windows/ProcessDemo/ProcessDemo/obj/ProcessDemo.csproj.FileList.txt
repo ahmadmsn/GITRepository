@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProcessDemo.Properties.Resources.resources
+obj\Debug\ProcessDemo.csproj.GenerateResource.Cache
+bin\Debug\ProcessDemo.pdb
+obj\Debug\ProcessDemo.pdb
+obj\Debug\ProcessDemo.Form1.resources
+bin\Debug\ProcessDemo.exe
+obj\Debug\ProcessDemo.exe

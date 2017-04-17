@@ -1,0 +1,2 @@
+D:\ad\asp_old\monitorthread\monitorthread\obj\Debug\monitorthread.exe
+D:\ad\asp_old\monitorthread\monitorthread\obj\Debug\monitorthread.pdb

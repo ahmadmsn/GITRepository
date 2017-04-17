@@ -1,0 +1,8 @@
+bin\Debug\adams.exe
+bin\Debug\adams.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\adams.Properties.Resources.resources
+obj\Debug\adams.csproj.GenerateResource.Cache
+obj\Debug\adams.exe
+obj\Debug\adams.pdb
+obj\Debug\adams.adams1.resources

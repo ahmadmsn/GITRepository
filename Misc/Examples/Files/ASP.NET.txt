@@ -1,0 +1,473 @@
+Controls:
+
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class _Default : System.Web.UI.Page 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Calendar1.Visible = false;
+        TextBox1.Text = HiddenField1.Value;
+        Label l = new Label();
+        l.Text = "dynamically created";
+        l.BackColor = System.Drawing.Color.Aqua;
+        PlaceHolder1.Controls.Add(l);
+     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Calendar1.Visible = true;
+    }
+    protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+    {
+        TextBox1.Text = Calendar1.SelectedDate.Day.ToString() + "/" + Calendar1.SelectedDate.Month.ToString()+"/" + Calendar1.SelectedDate.Year.ToString();
+    }
+    protected void Calendar1_DayRender(object sender, DayRenderEventArgs e)
+    {
+        if (e.Day.DayNumberText == "23")
+        { 
+            Literal l=new Literal();
+            l.Text = "meeting";
+            e.Cell.Controls.Add(l);
+            e.Cell.BackColor = System.Drawing.Color.Aqua;
+        }
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        string filename;
+        filename = FileUpload1.FileName;
+         
+        FileUpload1.SaveAs(Server.MapPath("files") + @"\" + filename);
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Panel1.Visible = false;
+    }
+}
+
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class _Default : System.Web.UI.Page 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Table t = new Table();
+         
+        for (int i = 0; i < 3; i++)
+        {
+            TableRow r = new TableRow();
+            for (int j = 0; j < 4; j++)
+            {
+                TableCell c = new TableCell();
+                c.Text = j.ToString();
+                r.Cells.Add(c);
+            }
+            t.Rows.Add(r);
+        }
+        t.BackColor = System.Drawing.Color.Aqua;
+        t.BorderStyle = BorderStyle.Solid;
+        t.BorderColor = System.Drawing.Color.Red ;
+        t.GridLines = GridLines.Both;
+        this.Controls.Add(t);
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        string s = " ";
+        if (CheckBox1.Checked)
+            s += CheckBox1.Text;
+        if (CheckBox2.Checked)
+            s += CheckBox2.Text;
+        if (CheckBox3.Checked)
+            s += CheckBox3.Text;
+        Response.Write("u hv enetered" + s);
+        if (RadioButton1.Checked)
+            TextBox1.Text = RadioButton1.Text;
+        else
+            TextBox1.Text = RadioButton2.Text;
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        for (int i = 0; i < CheckBoxList1.Items.Count; i++)
+        {
+            if (CheckBoxList1.Items[i].Selected)
+            {
+                TextBox1.Text += CheckBoxList1.Items[i].Text;
+            }
+        }
+        for (int i = 0; i < RadioButtonList1.Items.Count; i++)
+        {
+            if (RadioButtonList1.Items[i].Selected)
+            {
+                TextBox1.Text  = RadioButtonList1.Items[i].Text;
+            }
+        }
+    }
+}
+
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Default2 : System.Web.UI.Page
+{
+    SqlConnection con = new SqlConnection("data source=STG-1CC267AA387;database=test;uid=sa;pwd=stg");
+    SqlCommand com = new SqlCommand();
+    SqlDataReader dr;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            com.Connection = con;
+            com.CommandText = "select * from person";
+            con.Open();
+            dr = com.ExecuteReader();
+            while (dr.Read())
+            {
+                DropDownList1.Items.Add(dr[0].ToString());
+            }
+            con.Close();
+        }
+         
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        //com.Connection = con;
+        //com.CommandText = "insert into person values('"+TextBox1.Text+"','"+TextBox2.Text+"')";
+        //con.Open();
+        // com.ExecuteNonQuery();
+        //con.Close();
+        //TextBox2.Text = " ";
+        //TextBox1.Text = " ";
+        com.Connection = con;
+        com.CommandType = CommandType.StoredProcedure;
+        com.CommandText = "inserttoperson";
+        com.Parameters.AddWithValue("@name", TextBox1.Text);
+        com.Parameters.AddWithValue("@address", TextBox2.Text);
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+        TextBox2.Text = " ";
+        TextBox1.Text = " ";
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+        com.CommandText = "update person set address='"+TextBox1.Text+"' where name='"+DropDownList1.SelectedItem.Text+"'";
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+        TextBox2.Text = " ";
+        TextBox1.Text = " ";
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+        com.CommandText = "delete from person where name='" + DropDownList1.SelectedItem.Text + "'";
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+    }
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+            com.CommandType = CommandType.StoredProcedure;
+            com.CommandText = "selectprocedure";
+            SqlParameter p = new SqlParameter("@addr", SqlDbType.VarChar, 50);
+            p.Direction = ParameterDirection.Output;
+            com.Parameters.Add(p);
+            com.Parameters.AddWithValue("@name", DropDownList1.SelectedItem.Text);
+            con.Open();
+             com.ExecuteNonQuery();
+        TextBox3.Text=p.Value.ToString();
+            con.Close();
+    }
+}
+
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class _Default : System.Web.UI.Page 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Calendar1.Visible = false;
+        TextBox1.Text = HiddenField1.Value;
+        Label l = new Label();
+        l.Text = "dynamically created";
+        l.BackColor = System.Drawing.Color.Aqua;
+        PlaceHolder1.Controls.Add(l);
+     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Calendar1.Visible = true;
+    }
+    protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+    {
+        TextBox1.Text = Calendar1.SelectedDate.Day.ToString() + "/" + Calendar1.SelectedDate.Month.ToString()+"/" + Calendar1.SelectedDate.Year.ToString();
+    }
+    protected void Calendar1_DayRender(object sender, DayRenderEventArgs e)
+    {
+        if (e.Day.DayNumberText == "23")
+        { 
+            Literal l=new Literal();
+            l.Text = "meeting";
+            e.Cell.Controls.Add(l);
+            e.Cell.BackColor = System.Drawing.Color.Aqua;
+        }
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        string filename;
+        filename = FileUpload1.FileName;
+         
+        FileUpload1.SaveAs(Server.MapPath("files") + @"\" + filename);
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Panel1.Visible = false;
+    }
+}
+
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Default3 : System.Web.UI.Page
+{
+    SqlConnection con = new SqlConnection("data source=STG-1CC267AA387;database=test;uid=sa;pwd=stg");
+    SqlCommand com = new SqlCommand();
+    SqlDataAdapter da = new SqlDataAdapter();
+     
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        da.SelectCommand = com;
+        com.CommandText = "select * from person";
+        com.Connection = con;
+        DataSet ds = new DataSet();
+        da.Fill(ds, "table");
+        GridView1.DataSource = ds;
+        GridView1.DataBind();
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        da.SelectCommand = com;
+        com.CommandText = "select * from person";
+        com.Connection = con;
+        DataSet ds = new DataSet();
+        da.Fill(ds, "table");
+        ds.Tables["table"].Rows.Add("lkm", "jayanagar");
+        SqlCommandBuilder  b = new SqlCommandBuilder(da);
+        da.Update(ds,"table");
+            
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        da.SelectCommand = com;
+        com.CommandText = "select * from person";
+        com.Connection = con;
+        DataSet ds = new DataSet();
+        da.Fill(ds, "table");
+        DataRow dr = ds.Tables["table"].Rows[2];
+        dr["address"] = "vvvvvvv";
+        SqlCommandBuilder b = new SqlCommandBuilder(da);
+        da.Update(ds, "table");
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+
+        da.SelectCommand = com;
+        com.CommandText = "select * from person";
+        com.Connection = con;
+        DataSet ds = new DataSet();
+        da.Fill(ds, "table");
+         ds.Tables["table"].Rows[2].Delete();
+        
+        SqlCommandBuilder b = new SqlCommandBuilder(da);
+        da.Update(ds, "table");
+         
+         
+
+
+    }
+}
+
+
+
+
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Default2 : System.Web.UI.Page
+{
+    SqlConnection con = new SqlConnection("data source=STG-1CC267AA387;database=test;uid=sa;pwd=stg");
+    SqlCommand com = new SqlCommand();
+    SqlDataReader dr;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            com.Connection = con;
+            com.CommandText = "select * from person";
+            con.Open();
+            dr = com.ExecuteReader();
+            while (dr.Read())
+            {
+                DropDownList1.Items.Add(dr[0].ToString());
+            }
+            con.Close();
+        }
+         
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        //com.Connection = con;
+        //com.CommandText = "insert into person values('"+TextBox1.Text+"','"+TextBox2.Text+"')";
+        //con.Open();
+        // com.ExecuteNonQuery();
+        //con.Close();
+        //TextBox2.Text = " ";
+        //TextBox1.Text = " ";
+        com.Connection = con;
+        com.CommandType = CommandType.StoredProcedure;
+        com.CommandText = "inserttoperson";
+        com.Parameters.AddWithValue("@name", TextBox1.Text);
+        com.Parameters.AddWithValue("@address", TextBox2.Text);
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+        TextBox2.Text = " ";
+        TextBox1.Text = " ";
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+        com.CommandText = "update person set address='"+TextBox1.Text+"' where name='"+DropDownList1.SelectedItem.Text+"'";
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+        TextBox2.Text = " ";
+        TextBox1.Text = " ";
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+        com.CommandText = "delete from person where name='" + DropDownList1.SelectedItem.Text + "'";
+        con.Open();
+        com.ExecuteNonQuery();
+        con.Close();
+    }
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        com.Connection = con;
+            com.CommandType = CommandType.StoredProcedure;
+            com.CommandText = "selectprocedure";
+            SqlParameter p = new SqlParameter("@addr", SqlDbType.VarChar, 50);
+            p.Direction = ParameterDirection.Output;
+            com.Parameters.Add(p);
+            com.Parameters.AddWithValue("@name", DropDownList1.SelectedItem.Text);
+            con.Open();
+             com.ExecuteNonQuery();
+        TextBox3.Text=p.Value.ToString();
+            con.Close();
+    }
+}
+
+
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class _Default : System.Web.UI.Page 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Calendar1.Visible = false;
+        TextBox1.Text = HiddenField1.Value;
+        Label l = new Label();
+        l.Text = "dynamically created";
+        l.BackColor = System.Drawing.Color.Aqua;
+        PlaceHolder1.Controls.Add(l);
+     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Calendar1.Visible = true;
+    }
+    protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+    {
+        TextBox1.Text = Calendar1.SelectedDate.Day.ToString() + "/" + Calendar1.SelectedDate.Month.ToString()+"/" + Calendar1.SelectedDate.Year.ToString();
+    }
+    protected void Calendar1_DayRender(object sender, DayRenderEventArgs e)
+    {
+        if (e.Day.DayNumberText == "23")
+        { 
+            Literal l=new Literal();
+            l.Text = "meeting";
+            e.Cell.Controls.Add(l);
+            e.Cell.BackColor = System.Drawing.Color.Aqua;
+        }
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        string filename;
+        filename = FileUpload1.FileName;
+         
+        FileUpload1.SaveAs(Server.MapPath("files") + @"\" + filename);
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Panel1.Visible = false;
+    }
+}

@@ -1,0 +1,5 @@
+bin\Debug\prime.exe
+bin\Debug\prime.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\prime.exe
+obj\Debug\prime.pdb

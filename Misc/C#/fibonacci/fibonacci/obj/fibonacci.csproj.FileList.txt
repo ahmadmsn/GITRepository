@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\fibonacci.exe
+bin\Debug\fibonacci.pdb
+obj\Debug\fibonacci.exe
+obj\Debug\fibonacci.pdb

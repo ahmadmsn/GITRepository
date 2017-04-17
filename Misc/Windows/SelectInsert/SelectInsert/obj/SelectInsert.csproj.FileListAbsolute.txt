@@ -1,0 +1,9 @@
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\bin\Debug\SelectInsert.exe.config
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\SelectInsert.Form1.resources
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\SelectInsert.Properties.Resources.resources
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\SelectInsert.csproj.GenerateResource.Cache
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\bin\Debug\SelectInsert.exe
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\bin\Debug\SelectInsert.pdb
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\SelectInsert.exe
+E:\Work\VS-2005\Windows 1.04.09\SelectInsert\SelectInsert\obj\Debug\SelectInsert.pdb

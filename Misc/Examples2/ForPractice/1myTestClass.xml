@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myTestClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <myString>Hello World</myString>
+  <myInt>1234</myInt>
+  <myArray>
+    <string>qwerty</string>
+    <string>asdfgh</string>
+    <string>zxcvbn</string>
+    <string>123456</string>
+  </myArray>
+</myTestClass>

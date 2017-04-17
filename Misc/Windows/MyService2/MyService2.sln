@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService2", "MyService2\MyService2.csproj", "{D56FADDE-653D-441F-9799-0CABC35E5488}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyServiceSetup", "MyServiceSetup\MyServiceSetup.vdproj", "{55C9E76D-D35C-4CF2-AE5F-9A6C7F03F9FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56FADDE-653D-441F-9799-0CABC35E5488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56FADDE-653D-441F-9799-0CABC35E5488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56FADDE-653D-441F-9799-0CABC35E5488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56FADDE-653D-441F-9799-0CABC35E5488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C9E76D-D35C-4CF2-AE5F-9A6C7F03F9FA}.Debug|Any CPU.ActiveCfg = Debug
+		{55C9E76D-D35C-4CF2-AE5F-9A6C7F03F9FA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+bin\Debug\POC.Test.Login.exe
+bin\Debug\POC.Test.Login.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\POC.Test.Login.Properties.Resources.resources
+obj\Debug\POC.Test.Login.csproj.GenerateResource.Cache
+obj\Debug\POC.Test.Login.exe
+obj\Debug\POC.Test.Login.pdb
+bin\Debug\POC.Test.Login.exe.config
+obj\Debug\POC.Test.Login.Operations.resources
+obj\Debug\POC.Test.Login.LoginPage.resources

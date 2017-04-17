@@ -1,0 +1,8 @@
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\bin\Debug\Abstract_Interface.exe
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\bin\Debug\Abstract_Interface.pdb
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\Abstract_Interface.Form1.resources
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\Abstract_Interface.Properties.Resources.resources
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\Abstract_Interface.csproj.GenerateResource.Cache
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\Abstract_Interface.exe
+E:\Work\NewDevelopment\VS2008\Abstract_Interface\Abstract_Interface\obj\Debug\Abstract_Interface.pdb

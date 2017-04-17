@@ -1,0 +1,5 @@
+bin\Debug\jobrequestdemo.dll
+bin\Debug\jobrequestdemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\jobrequestdemo.dll
+obj\Debug\jobrequestdemo.pdb

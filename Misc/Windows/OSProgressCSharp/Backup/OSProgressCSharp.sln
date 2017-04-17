@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSProgressCSharp", "OSProgressCSharp\OSProgressCSharp.csproj", "{F98B01A1-74B5-4144-9C96-8FCA45B1054A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{473A9E9E-2AF2-4BDE-9794-6D32AA23F318}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F98B01A1-74B5-4144-9C96-8FCA45B1054A}.Debug.ActiveCfg = Debug|.NET
+		{F98B01A1-74B5-4144-9C96-8FCA45B1054A}.Debug.Build.0 = Debug|.NET
+		{F98B01A1-74B5-4144-9C96-8FCA45B1054A}.Release.ActiveCfg = Release|.NET
+		{F98B01A1-74B5-4144-9C96-8FCA45B1054A}.Release.Build.0 = Release|.NET
+		{473A9E9E-2AF2-4BDE-9794-6D32AA23F318}.Debug.ActiveCfg = Debug|.NET
+		{473A9E9E-2AF2-4BDE-9794-6D32AA23F318}.Debug.Build.0 = Debug|.NET
+		{473A9E9E-2AF2-4BDE-9794-6D32AA23F318}.Release.ActiveCfg = Release|.NET
+		{473A9E9E-2AF2-4BDE-9794-6D32AA23F318}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

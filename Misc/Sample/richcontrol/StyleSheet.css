@@ -1,0 +1,17 @@
+﻿body 
+{
+	background-color:Lime;
+	border-style:solid;
+	border-color:Blue;
+
+}
+.aaa
+{
+	background-color:Aqua;
+	border-style:solid;
+	font-style:italic;
+	font-family:Comic Sans MS;
+	font-weight:bold;
+	font-size:larger;
+	cursor:help;
+}

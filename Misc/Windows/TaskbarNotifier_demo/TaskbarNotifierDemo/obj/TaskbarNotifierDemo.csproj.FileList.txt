@@ -1,0 +1,12 @@
+bin\Debug\TaskbarNotifierDemo.exe
+bin\Debug\TaskbarNotifierDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TaskbarNotifierDemo.close.bmp
+obj\Debug\TaskbarNotifierDemo.close2.bmp
+obj\Debug\TaskbarNotifierDemo.skin.bmp
+obj\Debug\TaskbarNotifierDemo.skin2.bmp
+obj\Debug\TaskbarNotifierDemo.skin3.bmp
+obj\Debug\TaskbarNotifierDemo.Form1.resources
+obj\Debug\TaskbarNotifierDemo.csproj.GenerateResource.Cache
+obj\Debug\TaskbarNotifierDemo.exe
+obj\Debug\TaskbarNotifierDemo.pdb

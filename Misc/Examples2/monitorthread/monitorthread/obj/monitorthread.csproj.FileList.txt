@@ -1,0 +1,5 @@
+bin\Debug\monitorthread.exe
+bin\Debug\monitorthread.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\monitorthread.exe
+obj\Debug\monitorthread.pdb

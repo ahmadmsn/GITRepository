@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+	<siteMapNode url="~/default.aspx" title="Home"  description="Home">
+		
+		<siteMapNode title="Information" description="Learn About Our Company">
+			<siteMapNode description="Information about page" title="About Us" url="~/default2.aspx"/>
+			<siteMapNode description="Investing" url="~/default3.aspx" title="Investment"/>
+		
+		</siteMapNode>
+			
+        <siteMapNode title="Product"  description="Learn About our Product">
+			<siteMapNode url="default4.aspx" title="RevoStock" description="Investment Software For stock Charting"/>
+			<siteMapNode url="~/default6.aspx" description="Investment Software For Yield Analysis" title="Revo Analyze"/>
+		</siteMapNode>
+	
+	</siteMapNode>
+</siteMap>

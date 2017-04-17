@@ -1,0 +1,10 @@
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\bin\Debug\TestLog.exe
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\bin\Debug\TestLog.pdb
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\bin\Debug\Logwiter.dll
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\bin\Debug\Logwiter.pdb
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\TestLog.Form1.resources
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\TestLog.Properties.Resources.resources
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\TestLog.csproj.GenerateResource.Cache
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\TestLog.exe
+E:\Work\NewDevelopment\VS2008\TestLog\TestLog\obj\Debug\TestLog.pdb

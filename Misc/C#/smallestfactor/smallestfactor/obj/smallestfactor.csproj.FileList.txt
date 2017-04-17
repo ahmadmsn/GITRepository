@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\smallestfactor.exe
+bin\Debug\smallestfactor.pdb
+obj\Debug\smallestfactor.exe
+obj\Debug\smallestfactor.pdb

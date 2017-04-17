@@ -1,0 +1,5 @@
+E:\Work\NewDevelopment\VS2008\Logwiter\Logwiter\bin\Debug\Logwiter.dll
+E:\Work\NewDevelopment\VS2008\Logwiter\Logwiter\bin\Debug\Logwiter.pdb
+E:\Work\NewDevelopment\VS2008\Logwiter\Logwiter\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\NewDevelopment\VS2008\Logwiter\Logwiter\obj\Debug\Logwiter.dll
+E:\Work\NewDevelopment\VS2008\Logwiter\Logwiter\obj\Debug\Logwiter.pdb

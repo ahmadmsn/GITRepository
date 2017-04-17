@@ -1,0 +1,125 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>  
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            height: 44px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <form id="form1" runat="server">
+    <div>      
+   <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <table class="style1" style="width: 100%">
+            <tr>
+                <td colspan="2" class="style2" 
+                    style="background-color: #0066FF; border-bottom-width: thick; border-bottom-color: #800000">
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h2>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acusis WordScript Web Edition</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 82px">
+
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                        ForeColor="#7C6F57" Orientation="Horizontal" StaticSubMenuIndent="10px">
+                        <StaticSelectedStyle BackColor="#5D7B9D" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#F7F6F3" />
+                        <DynamicSelectedStyle BackColor="#5D7B9D" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DataBindings>
+                            <asp:MenuItemBinding DataMember="siteMapNode" NavigateUrlField="url" 
+                                TextField="title" />
+                        </DataBindings>
+                        <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    </asp:Menu>
+                    <br />
+                    <br />
+
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 1430px">
+                    <asp:TreeView ID="TreeView1" runat="server" ImageSet="Arrows" Width="200px">
+                        <ParentNodeStyle Font-Bold="False" />
+                        <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                        <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" 
+                            HorizontalPadding="0px" VerticalPadding="0px" />
+                        <DataBindings>
+                            <asp:TreeNodeBinding DataMember="siteMapNode" NavigateUrlField="url" 
+                                TextField="title" />
+                        </DataBindings>
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" 
+                            HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td style="vertical-align: top" width="100%">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Copyright (C) Acusis Software India</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

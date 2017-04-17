@@ -1,0 +1,3 @@
+D:\ad\asp_old\Acusis.Poc.FileOperations\Acusis.Poc.FileOperations\bin\Debug\Acusis.Poc.FileOperations.exe.config
+D:\ad\asp_old\Acusis.Poc.FileOperations\Acusis.Poc.FileOperations\obj\Debug\Acusis.Poc.FileOperations.exe
+D:\ad\asp_old\Acusis.Poc.FileOperations\Acusis.Poc.FileOperations\obj\Debug\Acusis.Poc.FileOperations.pdb

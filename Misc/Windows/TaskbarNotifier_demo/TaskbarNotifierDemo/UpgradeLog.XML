@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TaskbarNotifierDemo">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\TaskbarNotifierDemo.sln">
+</Property><Property Name="Date" Value="Tuesday, February 24, 2009">
+</Property><Property Name="Time" Value="10:20 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TaskbarNotifierDemo.sln" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\TaskbarNotifierDemo.sln">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="TaskbarNotifierDemo.csproj" Description="Project file successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\TaskbarNotifierDemo.csproj">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="TaskbarNotifierDemo.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\TaskbarNotifierDemo.csproj.user">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="Form1.cs" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="TaskbarNotifier.cs" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\TaskbarNotifier.cs">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="close.bmp" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\close.bmp">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="close2.bmp" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\close2.bmp">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="Form1.resx" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="skin.bmp" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\skin.bmp">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="skin2.bmp" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\skin2.bmp">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="skin3.bmp" Description="File successfully backed up as C:\Documents and Settings\ahmad.mursalin\Desktop\TaskbarNotifier_demo\TaskbarNotifierDemo\Backup\skin3.bmp">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="TaskbarNotifierDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TaskbarNotifierDemo" Source="TaskbarNotifierDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TaskbarNotifierDemo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TaskbarNotifierDemo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TaskbarNotifierDemo" Source="TaskbarNotifierDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

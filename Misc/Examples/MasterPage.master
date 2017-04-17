@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <br />
+        
+        <br />
+        <br />
+        <br />
+        
+        <table style="z-index: 102; left: 0px; position: absolute; top: 0px; width: 740px; height: 405px;">
+            <tr>
+                <td style="width: 100px; height: 115px;" colspan="3">
+                <asp:Image ID="Image1" runat="server" Height="115px" ImageUrl="~/images/J0227558.JPG"
+            Style="z-index: 100; left: 7px; position: absolute; top: 7px" Width="117px" />
+        <asp:Label ID="Label1" runat="server" BackColor="#FF80FF" Font-Bold="True" Font-Size="Large"
+            Style="z-index: 101; left: 244px; position: absolute; top: 44px" Text="Wel Come To MyWebsite"
+            Width="199px"></asp:Label>
+                </td>
+                 
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 392px">
+                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    <asp:Label ID="Label2" runat="server" Style="z-index: 100; left: 148px; position: absolute;
+                        top: 172px" Text="Label" Width="86px"></asp:Label>
+        </asp:contentplaceholder>
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                 
+                <td style="width: 100px" colspan="3">
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

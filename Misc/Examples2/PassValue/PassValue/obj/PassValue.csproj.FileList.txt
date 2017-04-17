@@ -1,0 +1,9 @@
+bin\Debug\PassValue.exe
+bin\Debug\PassValue.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PassValue.Form1.resources
+obj\Debug\PassValue.Form2.resources
+obj\Debug\PassValue.Properties.Resources.resources
+obj\Debug\PassValue.csproj.GenerateResource.Cache
+obj\Debug\PassValue.exe
+obj\Debug\PassValue.pdb

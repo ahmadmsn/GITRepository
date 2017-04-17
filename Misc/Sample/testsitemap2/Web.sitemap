@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="Home"  description="Home">
+        <siteMapNode title="Information"  description="Learn About Our Company" >
+        <siteMapNode url="~/Default2.aspx" title="About Us"  description="Financial Reports and investors Analysis" />
+			<siteMapNode url="~/Default3.aspx" title="Investing" description="how Row Tech was Founded"/>
+    </siteMapNode>
+
+	<siteMapNode  title="Product"  description="Learn About Our Products">
+		<siteMapNode url="~/Default4.aspx" title="Revo Stock"  description="Investment Software" />
+		<siteMapNode url="~/Default5.aspx" title="RevoAnalyze"  description="Investment Software For Analysis" />
+	</siteMapNode>
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,5 @@
+bin\Debug\CipherLib.dll
+bin\Debug\CipherLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CipherLib.dll
+obj\Debug\CipherLib.pdb

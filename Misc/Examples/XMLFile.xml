@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>file:///E:\Examples\images\J0145212.JPG</ImageUrl>
+    <AlternateText>JPG Image</AlternateText>
+    <NavigateUrl>http://www.google.co.in</NavigateUrl>
+    <Keyword>a</Keyword>
+    <Impressions>1</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///E:\Examples\images\J0145669.JPG</ImageUrl>
+    <AlternateText>JPG Image</AlternateText>
+    <NavigateUrl>http://www.yahoo.co.in</NavigateUrl>
+    <Keyword>a</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>file:///E:\Examples\images\J0145904.JPG</ImageUrl>
+    <AlternateText>JPG Image</AlternateText>
+    <NavigateUrl>http://www.msn.co.in</NavigateUrl>
+    <Keyword>a</Keyword>
+    <Impressions>7</Impressions>
+  </Ad>
+  </Advertisements>

@@ -1,0 +1,8 @@
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\Practice_15._04._11.Form1.resources
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\Practice_15._04._11.Properties.Resources.resources
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\Practice_15.04.11.csproj.GenerateResource.Cache
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\bin\Debug\Practice_15.04.11.exe
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\bin\Debug\Practice_15.04.11.pdb
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\Practice_15.04.11.exe
+E:\Work\NewDevelopment\VS2008\Practice_15.04.11\Practice_15.04.11\obj\Debug\Practice_15.04.11.pdb

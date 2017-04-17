@@ -1,0 +1,15 @@
+﻿body 
+{
+	background-color:Blue;
+	border-style:solid;
+}
+.aaa
+{
+	background-color:Aqua;
+	font-style:italic;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:larger;
+	cursor:help;
+	
+	}

@@ -1,0 +1,50 @@
+﻿Installing assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Installing service MyService2...
+Service MyService2 has been successfully installed.
+Creating EventLog source MyService2 in log Application...
+Committing assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Uninstalling assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Removing EventLog source MyService2.
+Service MyService2 is being removed from the system...
+Service MyService2 was successfully removed from the system.
+Installing assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Installing service MyService2...
+Service MyService2 has been successfully installed.
+Creating EventLog source MyService2 in log Application...
+Committing assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Uninstalling assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Removing EventLog source MyService2.
+Service MyService2 is being removed from the system...
+Service MyService2 was successfully removed from the system.
+Uninstalling assembly 'D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.exe
+   logfile = D:\ad\Windows 1.04.09\MyService2\MyService2\bin\Debug\MyService2.InstallLog
+Removing EventLog source MyService2.
+Service MyService2 is being removed from the system...
+Service MyService2 was successfully removed from the system.

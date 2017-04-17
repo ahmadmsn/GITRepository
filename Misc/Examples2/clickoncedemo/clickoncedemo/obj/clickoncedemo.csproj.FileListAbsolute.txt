@@ -1,0 +1,2 @@
+D:\ad\asp_old\clickoncedemo\clickoncedemo\obj\Debug\clickoncedemo.exe
+D:\ad\asp_old\clickoncedemo\clickoncedemo\obj\Debug\clickoncedemo.pdb

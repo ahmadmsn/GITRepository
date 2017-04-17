@@ -1,0 +1,8 @@
+bin\Debug\MyWindowService.exe
+bin\Debug\MyWindowService.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MyWindowService.ProjectInstaller.resources
+obj\Debug\MyWindowService.Service1.resources
+obj\Debug\MyWindowService.csproj.GenerateResource.Cache
+obj\Debug\MyWindowService.exe
+obj\Debug\MyWindowService.pdb

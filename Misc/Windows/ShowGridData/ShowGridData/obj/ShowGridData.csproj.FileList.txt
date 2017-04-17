@@ -1,0 +1,10 @@
+bin\Debug\ShowGridData.exe
+bin\Debug\ShowGridData.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ShowGridData.ParrentGrid.resources
+obj\Debug\ShowGridData.Properties.Resources.resources
+obj\Debug\ShowGridData.csproj.GenerateResource.Cache
+obj\Debug\ShowGridData.exe
+obj\Debug\ShowGridData.pdb
+bin\Debug\ShowGridData.exe.config
+obj\Debug\ShowGridData.ChildGrid.resources
