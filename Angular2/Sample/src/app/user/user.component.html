@@ -19,7 +19,6 @@
           User Id:
         </div>
         <div class="col-lg-9">
-          <!--xxxxxxxxx xxxxxxxxxx      xxxxxxxxxxxxxx xxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxx-->
           <input type="text" name="txtUserId" id="txtUserId" value="">
         </div>
       </div>
@@ -106,28 +105,170 @@
     </div>
   </div>
   <!--3rd Column-->
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="col-lg-12">
       <fieldset class="scheduler-border">
-        <legend class="scheduler-border">User Rights</legend>
+        <legend class="scheduler-border">User Type</legend>
         <div class="checkbox">
           <label>
     <input type="checkbox" value="">
     Show all PRAs
-  </label>
+        </label>
         </div>
-        <div class="checkbox disabled">
+        <div class="checkbox ">
           <label>
     <input type="checkbox" value="">
     Create SQ Report
   </label>
         </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Create Trp Claim
+  </label>
+        </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Create QSC Investigation
+  </label>
+        </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Create One Buyers Claim
+  </label>
+        </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Create Salesstop
+  </label>
+        </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Alarm Access
+  </label>
+        </div>
+        <div class="checkbox">
+          <label>
+    <input type="checkbox" value="">
+    Memo Reciever
+  </label>
+        </div>
+        <div class="Add-LeftPadding">
+          <div class="checkbox">
+            <label>
+    <input type="checkbox" value="">
+    Buyers Claim
+  </label>
+          </div>
+          <div class="checkbox">
+            <label>
+    <input type="checkbox" value="">
+    Corrective Action Req
+  </label>
+          </div>
+          <div class="checkbox">
+            <label>
+    <input type="checkbox" value="">
+    Investigation(Crit/Stop)
+  </label>
+          </div>
+          <div class="checkbox">
+            <label>
+    <input type="checkbox" value="">
+    Sales Stop
+  </label>
+          </div>
+          <div class="checkbox">
+            <label>
+    <input type="checkbox" value="">
+    Alarms
+  </label>
+          </div>
+        </div>
+
       </fieldset>
     </div>
   </div>
   <!--3rd Column-->
-  <div class="col-lg-4">
-
+  <div class="col-lg-3">
+    <fieldset class="scheduler-border">
+      <legend class="scheduler-border">User Rights</legend>
+      <input type="radio" name="gender" value="male"> System Admin<br>
+      <input type="radio" name="gender" value="female">Super User<br>
+      <input type="radio" name="gender" value="other">Normal User<br>
+      <input type="radio" name="gender" value="female">Look User
+      <div class="checkbox">
+        <label>
+    <input type="checkbox" value="">
+    Is CPU User
+  </label>
+      </div>
+    </fieldset>
   </div>
-
 </div>
+<div class="row">
+  <!--Left Side-->
+  <div class="col-lg-6">
+    <div class="row">
+      <div class="col-lg-12">
+        <fieldset class="scheduler-border">
+          <legend class="scheduler-border">PRAs</legend>
+          <div class="col-lg-6">
+            <select id="lstPRA" class="UserSettingsSelect" multiple="true" size="6" name="lstPRA"></select>
+            <input id="txtPRASel" style="display: none" type="text" name="txtPRASel" />
+          </div>
+          <div class="col-lg-6">
+            <input id="cmdAddPRA" class="btn btn-primary" type="button" value="Add PRA" name="cmdAddPRA">
+            <input id="cmdRemovePRA" class="btn btn-primary" type="button" value="Remove PRA" name="cmdRemovePRA">
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <!--2nd Column-->
+  <div class="col-lg-6">
+    <div class="col-lg-12">
+      <fieldset class="scheduler-border">
+        <legend class="scheduler-border">Queues</legend>
+        <div class="row">
+          <div class="col-lg-6">
+            Page Size(cases visible/page)
+          </div>
+          <div class="col-lg-6 dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="true">
+              30
+            <span class="caret"></span>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div class="col-lg-5">
+              <select class="UserSettingsSelect" multiple="true" size="6" name="lstPRA"></select>
+              <input style="display: none" type="text" name="txtPRASel" />
+            </div>
+            <div class="col-lg-1">
+              <span class="CenteredSpan">
+                  <img alt="connect queue" title="Add queue to user" height="14" src="leftarr.gif" width="14" runat="server">
+					        <img alt="disconnect queue" id="imgDisconnect" title="Remove queue from user"  height="14" src="images/rightarr.gif" width="14" runat="server" />
+                  <input id="txtSelQueues" style="display: none" type="text" runat="server" />
+                  <input id="txtAvailQueues" style="display: none" type="text" runat="server" />
+              </span>
+            </div>
+            <div class="col-lg-6 dropdown">
+              <select class="UserSettingsSelect" multiple="true" size="6" name="lstPRA"></select>
+              <input style="display: none" type="text" name="txtPRASel" />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+
+

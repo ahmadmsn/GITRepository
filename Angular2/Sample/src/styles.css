@@ -45,3 +45,11 @@ legend.scheduler-border {
     border-bottom:none;
     margin-bottom: 0px;
 }
+.Add-LeftPadding{
+    padding-left: 10px;
+}
+.UserSettingsSelect 
+{
+    min-height:180px;
+    width: 200Px;
+}
