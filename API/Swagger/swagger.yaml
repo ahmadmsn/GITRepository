@@ -1,0 +1,88 @@
+swagger: "2.0"
+info:
+  description: "This API is used for movie collection"
+  version: "1.0.0"
+  title: "Swagger Movie collection"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "support@example.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "localhost"
+basePath: "/api"
+schemes:
+- "http"
+consumes:
+  - "application/json"
+produces:
+        - "application/json"
+paths:
+  /movies:
+    get:
+      description: "Returns all the movie from the list"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Movie"
+  /movie:
+    put:
+      description: "Add Movie to the library"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+      - in: "body"
+        name: movie
+        description: "Movie you want to update"
+        required: true
+        schema:
+          $ref: "#/definitions/Movie"
+      responses:
+        "200":
+          description: "The movie has been successfully updated"
+          schema:
+            $ref: "#/definitions/Message"
+############################################################################################################
+#---------------------------------- Definations --------------------------------------------------------#
+############################################################################################################
+definitions:
+  Movie:
+    type: object
+    required:
+      - id
+      - name
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      director:
+        type: string
+      year:
+        type: integer
+        format: int64
+  Message:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int64
+      description:
+        type: string
+      director:
+        type: string
+      year:
+        type: integer
+        format: int64
+      cast:
+        type: string
