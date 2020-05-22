@@ -1,0 +1,12 @@
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.deps.json
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.dll
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.pdb
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.AssemblyInfoInputs.cache
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.AssemblyInfo.cs
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csproj.CopyComplete
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.dll
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.pdb
+C:\Practice\Core\OdeToFood\OdeToFood\Data\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
